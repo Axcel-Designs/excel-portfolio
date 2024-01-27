@@ -5,7 +5,9 @@
 	#ham{
 		display: none;
 	}
-	
+	.arrow{
+		display: flex;
+	}
 
 
 }

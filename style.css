@@ -43,7 +43,7 @@ nav{
 	width: 95%;
 	margin: auto;
 	border-bottom:4px dashed #7899;
-	margin-top: 20px;
+	margin-top: 1vw;
 	border-radius:2vw ;
 }
 nav ul{
@@ -126,13 +126,13 @@ li a:active{
 	max-height: 300px;
 }
 .ham-icon.open div:first-child {
-	transform: rotate(45deg) translate(10px, 5px);
+	transform: rotate(45deg) translate(10px, 1.5vw);
 }
 .ham-icon.open div:nth-child(2){
 	opacity: 0;
 }
 .ham-icon.open div:last-child {
-	transform: rotate(-45deg) translate(10px, -5px);
+	transform: rotate(-45deg) translate(10px, -1.5vw);
 }
 .ham-icon div:first-child{
 	transform: none;

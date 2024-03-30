@@ -60,14 +60,14 @@ nav a{
 	font-family:poppins;
 	font-size: 1.5vw;
 }
- li a{
+ li a, .hire a{
 	text-decoration:none;
 	color: white;	
 	}
  li a:visted{
 	background-color: green;   
 	}
- li a:hover{
+ li a:hover, .hire a:hover{
 	opacity: 0.5;
 	transition: .3s;
 	}

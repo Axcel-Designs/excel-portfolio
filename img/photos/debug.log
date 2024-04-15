@@ -12034,3 +12034,22 @@
 [0127/095214.519:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
 [0127/095219.532:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
 [0127/095224.543:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[0415/123735.047:INFO:CONSOLE(1)] "Long rAF frame-time", source: file:///C:/Program%20Files/Adobe/Adobe%20Photoshop%202020/Required/www-rich-tooltips/build/external.js (1)
+[0415/123735.238:ERROR:mf_helpers.cc(14)] Error in dxva_video_decode_accelerator_win.cc on line 1612
+[0415/123735.238:ERROR:mf_helpers.cc(14)] Error in dxva_video_decode_accelerator_win.cc on line 842
+[0415/123735.259:WARNING:angle_platform_impl.cc(52)] compileToBinary(230): 
+C:\fakepath(69,8-58): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(77,9-43): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[0415/123735.714:ERROR:mf_helpers.cc(14)] Error in dxva_video_decode_accelerator_win.cc on line 1612
+[0415/123735.714:ERROR:mf_helpers.cc(14)] Error in dxva_video_decode_accelerator_win.cc on line 842
+[0415/123736.021:ERROR:mf_helpers.cc(14)] Error in dxva_video_decode_accelerator_win.cc on line 1612
+[0415/123736.021:ERROR:mf_helpers.cc(14)] Error in dxva_video_decode_accelerator_win.cc on line 842
+[0415/123736.712:ERROR:mf_helpers.cc(14)] Error in dxva_video_decode_accelerator_win.cc on line 1612
+[0415/123736.713:ERROR:mf_helpers.cc(14)] Error in dxva_video_decode_accelerator_win.cc on line 842
+[0415/123740.169:ERROR:mf_helpers.cc(14)] Error in dxva_video_decode_accelerator_win.cc on line 1612
+[0415/123740.169:ERROR:mf_helpers.cc(14)] Error in dxva_video_decode_accelerator_win.cc on line 842
+[0415/123741.114:ERROR:mf_helpers.cc(14)] Error in dxva_video_decode_accelerator_win.cc on line 1612
+[0415/123741.114:ERROR:mf_helpers.cc(14)] Error in dxva_video_decode_accelerator_win.cc on line 842
+[0415/123742.051:ERROR:mf_helpers.cc(14)] Error in dxva_video_decode_accelerator_win.cc on line 1612
+[0415/123742.051:ERROR:mf_helpers.cc(14)] Error in dxva_video_decode_accelerator_win.cc on line 842

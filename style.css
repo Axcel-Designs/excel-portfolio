@@ -171,7 +171,7 @@ section{
 
 .image img:hover{
 	box-shadow: 0px 0px 17px grey;
-	transition:.all 0.3s ease;
+	transition:all 0.3s ease;
 }
 
 .left-inner{
@@ -290,7 +290,7 @@ section{
 .box:hover{
 	box-shadow: 0 0 10px grey;
 	transform: scale(1.03);
-	transition:.all 0.3s ease;
+	transition:all 0.3s ease;
 }
 .contact-me{
 	display:flex;
@@ -319,12 +319,12 @@ footer{ position: relative;
 
 }
 footer{
-	border-top:1px solid; #7899 ;
+	border-top:1px solid #7899 ;
 	background-color: black;
-}
-footer > p{ ;
+ }
+ footer > p{ 
 	text-align: center;
 	background-color: black;
  	color: white;
  	width: 100%;
-}
+} 

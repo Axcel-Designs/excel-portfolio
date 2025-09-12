@@ -15,7 +15,7 @@
 Hi! I’m **ACHA K. EXCEL**  
 <!-- 🌍 Based in: **Nigeria**   -->
 💼 Currently: **Software Developer | FrontEnd Developer**  
-🧑‍🎨 Passionate about: **Design, Coding, Open Source, etc.**  
+🧑‍🎨 Passionate about: **Design, Coding, Solving Real World issues etc.**  
 
 🌐 **Live Portfolio:** [excelportfolio.vercel.app](https://excelportfolio.vercel.app/)
 

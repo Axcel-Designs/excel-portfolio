@@ -17,7 +17,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        <link rel="icon" href="/axcelbclear.png" />
+        <link rel="icon" href="/axcelclear.png" />
       </head>
       <body
         className={`${oxanium.className} antialiased min-h-screen flex flex-col bg-black text-gray-100 overflow-x-hidden`}

@@ -47,7 +47,7 @@ Hi! I’m **ACHA K. EXCEL**
 
  | Project | Description | Links | Technologies |
 |---------|-------------|-------|--------------|
-| **CleanCity+** | a Next.js (React) App Router web app that educates users on waste categories and helps them log, track, and visualize their recycling efforts. | [Repo](https://github.com/Axcel-Designs/CleanCityPlus) • [Live](https://cleancity-plus.vercel.app) | JavaScript, Tailwind, React, Next.js, React-Bootstrap, Bootstrap |
+| **CleanCity+** | a Next.js (React) App Router web app that educates users on waste categories and helps them log, track, and visualize their recycling efforts. | [Repo](https://github.com/Axcel-Designs/CleanCityPlus) [Live](https://cleancity-plus.vercel.app) | JavaScript, Tailwind, React, Next.js, React-Bootstrap, Bootstrap |
 | **Projects Two** | Mastering Front-End | [Repo](https://github.com/Axcel-Designs/REACT_tasks) | JavaScript, HTML, CSS, Tailwind, React, Next.js, Firebase, Redux, Formik-Yup, React Router DOM |
 | **Projects Three** | Mastering TypeScript | [Repo](https://github.com/Axcel-Designs/typescript) | TypeScript, Tailwind, React Router DOM |
 | **mini Project One** | Leaderboards | [Repo](https://axcel-designs.github.io/leaderboard/) | JavaScript, HTML, CSS |

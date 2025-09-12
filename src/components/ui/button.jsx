@@ -1,11 +1,11 @@
 "use client";
 import useHover from "@/hooks/hoverHook";
 
-export default function Button({ label, icon, type = "button",onClick }) {
+export default function Button({ label, icon, type = "button", onClick }) {
   const { active, handleHover } = useHover();
   return (
     <div
-    onClick={onClick}
+      onClick={onClick}
       {...handleHover}
       className={`flex flex-row justify-around items-center gap-2 p-2 rounded-xl shadow/90 ${
         active
@@ -18,10 +18,11 @@ export default function Button({ label, icon, type = "button",onClick }) {
     </div>
   );
 }
-export function ButtonWhite({ label, icon, type = "button" }) {
+export function ButtonWhite({ label, icon, type = "button", onClick }) {
   const { active, handleHover } = useHover();
   return (
     <div
+      onClick={onClick}
       {...handleHover}
       className={`flex flex-row justify-around items-center gap-2 p-2 rounded-xl shadow/90 ${
         active

@@ -40,7 +40,7 @@ export default function Contact() {
 
   return (
     <div className="bg-yellow-900 text-black">
-      <section className="container mx-auto items-center gap-4 p-10 text-center">
+      <section id="contact" className="container mx-auto items-center gap-4 p-10 text-center">
         <div className="my-6">
           <p className="text-4xl my-6 text-center">LET'S CONNECT</p>
           <p>

@@ -17,7 +17,7 @@ export default function About() {
         </div>
         <div>
           <p className="text-2xl my-6">Tech Stack</p>
-          <div className="flex flex-wrap gap-4 text-sm text-gray-100">
+          <div className="flex flex-wrap gap-10 text-sm text-gray-100 p-4">
             {techStackData.map(tech=>(
             <div key={tech} className="p-2  rounded-lg bg-yellow-900">{tech}</div>
             ))}

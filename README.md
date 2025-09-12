@@ -19,7 +19,7 @@ Hi! I’m **ACHA K. EXCEL**
 
 🌐 **Live Portfolio:** [excelportfolio.vercel.app](https://excelportfolio.vercel.app/)
 
-[![Vercel Status](https://img.shields.io/github/deployments/Axcel-Designs/excelportfolio/Production?label=vercel&logo=vercel&color=0ACF83)](https://excelportfolio.vercel.app/)
+[![Vercel Status](https://img.shields.io/github/deployments/Axcel-Designs/excel-portfolio/Production?label=vercel&logo=vercel&color=0ACF83)](https://excelportfolio.vercel.app/)
 
 ---
 

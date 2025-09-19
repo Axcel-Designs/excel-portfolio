@@ -4,11 +4,11 @@ import Link from "next/link";
 import { LuArrowBigRightDash, LuGithub } from "react-icons/lu";
 import Image from "next/image";
 
-export default function Project() {
+export default function Projects() {
   return (
     <section id="project" className="container mx-auto items-center gap-4 p-6">
       <div className="my-6">
-        <p className="text-4xl my-6 text-center">Project</p>
+        <p className="text-4xl my-6 text-center">Projects</p>
         <p>
           Explore my featured projects showcasing modern web development, data
           visualization, and interactive user experiences.

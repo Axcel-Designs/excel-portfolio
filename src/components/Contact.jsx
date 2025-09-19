@@ -2,7 +2,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import { ButtonForm } from "./ui/button";
-import useShow from "@/hooks/showHook";
 
 export default function Contact() {
   const form = useRef();
@@ -40,7 +39,10 @@ export default function Contact() {
 
   return (
     <div className="bg-yellow-900 text-black">
-      <section id="contact" className="container mx-auto items-center gap-4 p-10 text-center">
+      <section
+        id="contact"
+        className="container mx-auto items-center gap-4 p-10 text-center"
+      >
         <div className="my-6">
           <p className="text-4xl my-6 text-center">LET'S CONNECT</p>
           <p>
@@ -49,7 +51,7 @@ export default function Contact() {
           </p>
         </div>
 
-        <div className="lg:w-180 max-md:w-140 max-sm:w-100 mx-auto">
+        <div className="w-full sm:w-120 md:w-150 lg:w-180 mx-auto">
           <form
             ref={form}
             onSubmit={handleSubmit}

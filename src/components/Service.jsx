@@ -2,7 +2,7 @@ import { servicesData } from "@/utils/data";
 
 export default function Service() {
   return (
-    <section className="container mx-auto items-center gap-4 p-6 text-center">
+    <section id="services" className="container mx-auto items-center gap-4 p-6 text-center">
       <div className="my-6">
         <p className="text-4xl my-6">SERVICES</p>
         <p>

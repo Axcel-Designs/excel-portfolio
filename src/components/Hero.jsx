@@ -22,7 +22,7 @@ export default function Hero() {
           social media management
         </p>
         <div className="flex max-md:flex-col w-fit gap-4 my-4">
-          <Button label="View My Work" onClick={()=>scrollToSection("#project")} />
+          <Button label="View My Work" onClick={()=>scrollToSection("#projects")} />
           <ButtonWhite label="Get In Touch" onClick={()=>scrollToSection("#contact")}/>
         </div>
       </div>

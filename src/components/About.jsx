@@ -3,7 +3,7 @@ import { techStackData } from "@/utils/data";
 export default function About() {
   return (
     <div className="bg-[#0f0f0f]">
-      <section className="container mx-auto items-center gap-4 p-6 text-gray-200 text-center">
+      <section id="about" className="container mx-auto items-center gap-4 p-6 text-gray-200 text-center">
         <div>
           <p className="text-4xl my-6">About</p>
           <p>
@@ -17,10 +17,12 @@ export default function About() {
         </div>
         <div>
           <p className="text-2xl my-6">Tech Stack</p>
-          <div className="flex flex-wrap gap-10 text-sm text-gray-100 p-4">
-            {techStackData.map(tech=>(
-            <div key={tech} className="p-2  rounded-lg bg-yellow-900">{tech}</div>
-            ))}
+            <div className="flex flex-wrap gap-10 text-sm text-gray-100 p-4 justify-center items-center">
+              {techStackData.map((tech) => (
+                <div key={tech} className="p-2  rounded-lg bg-yellow-900">
+                  {tech}
+                </div>
+              ))}
           </div>
         </div>
       </section>

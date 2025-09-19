@@ -6,18 +6,22 @@ import { FaBars, FaTimes } from "react-icons/fa";
 import useShow from "@/hooks/showHook";
 
 const navItems = [
-  { href: "#home", label: "Home" },
+  { href: "/", label: "Home" },
   { href: "#about", label: "About" },
   { href: "#services", label: "Services" },
   { href: "#projects", label: "Projects" },
   { href: "#contact", label: "Contact" },
 ];
 
+function scrollToSec(href) {
+  document.querySelector(href).scrollIntoView({ behavior: "smooth" });
+}
+
 function Navbar() {
   return navItems.map((item, i) => (
-    <Link href={item.href} key={i}>
-      {item.label}
-    </Link>
+    <div key={i} onClick={() => scrollToSec(item.href)} >
+        {item.label}
+    </div>
   ));
 }
 
@@ -28,9 +32,9 @@ export default function Header() {
     <>
       <section className="shadow/20 shadow-gray-600 sticky top-0 bg-black/95">
         <header className="flex justify-between items-center py-2 px-2">
-          <div>
+          <Link href={"/"}>
             <Image src={logo} alt="image" width={200} />
-          </div>
+          </Link>
           <nav className="hidden md:flex justify-around gap-3 p-4">
             <Navbar />
           </nav>

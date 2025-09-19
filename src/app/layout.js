@@ -10,7 +10,7 @@ const oxanium = Oxanium({
 
 export const metadata = {
   title: "Acha K. Excel Portfolio",
-  description: "Software Engineer | Front-End Developer | Tech Enthusiast ",
+  description: "Software Developer | Web Developer | Frontend Specialist",
 };
 
 export default function RootLayout({ children }) {

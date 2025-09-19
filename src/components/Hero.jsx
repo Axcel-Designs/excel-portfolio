@@ -9,7 +9,7 @@ export default function Hero() {
     element?.scrollIntoView({ behavior: "smooth" });
   }
   return (
-    <section className="container mx-auto grid grid-cols-2 max-sm:grid-cols-1 items-center gap-4 p-6">
+    <section id="home" className="container mx-auto grid grid-cols-2 max-sm:grid-cols-1 items-center gap-4 p-6">
       <div>
         <p className="my-2">Hello, my name is</p>
         <b className="text-4xl my-2">K. Excel Acha</b>

@@ -35,7 +35,7 @@ export default function Header() {
           <Link href={"/"}>
             <Image src={logo} alt="image" width={200} />
           </Link>
-          <nav className="hidden md:flex justify-around gap-3 p-4">
+          <nav className="hidden md:flex justify-around gap-6 p-4">
             <Navbar />
           </nav>
           <nav

@@ -4,7 +4,7 @@ import { socialsData } from "@/utils/data";
 const Footer = () => {
   return (
     <footer className="border-t text-gray-400">
-      <div className="container mx-auto flex flex-col items-center justify-between gap-4 py-6 sm:flex-row">
+      <div className="container mx-auto flex flex-col items-center justify-between gap-4 py-6 px-10 sm:flex-row">
         <p className="text-sm">
           &copy; {new Date().getFullYear()} ACHA K. EXCEL. All rights reserved.
         </p>

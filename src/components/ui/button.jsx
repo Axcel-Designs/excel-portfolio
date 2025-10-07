@@ -40,10 +40,10 @@ export function ButtonForm({ label, icon, type }) {
   return (
     <div
       {...handleHover}
-      className={`flex flex-row justify-around items-center  gap-2 p-2 rounded-xl shadow/90 shadow-yellow-500 cursor-pointer ${
+      className={`flex flex-row justify-around items-center gap-2 p-2 rounded-xl shadow/90 shadow-gray-500 cursor-pointer ${
         active
-          ? "bg-yellow-950 text-white shadow-white"
-          : "text-yellow-950 bg-white"
+          ? "bg-gray-950 text-white shadow-white"
+          : "text-gray-950 bg-white"
       }`}
     >
       {icon}

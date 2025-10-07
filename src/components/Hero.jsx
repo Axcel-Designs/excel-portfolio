@@ -31,7 +31,7 @@ export default function Hero() {
           src={pic}
           alt="profilePic"
           height={800}
-          className="rounded-2xl"
+          className="rounded-2xl hidden md:flex"
         />
       </div>
     </section>

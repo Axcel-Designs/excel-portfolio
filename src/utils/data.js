@@ -1,4 +1,9 @@
-import { FaCode, FaDatabase, FaPaintBrush, FaWordpressSimple } from "react-icons/fa";
+import {
+  FaCode,
+  FaDatabase,
+  FaPaintBrush,
+  FaWordpressSimple,
+} from "react-icons/fa";
 import { LuGithub, LuLinkedin, LuMail, LuTwitter } from "react-icons/lu";
 
 export const techStackData = [
@@ -8,6 +13,7 @@ export const techStackData = [
   "TypeScript",
   "React",
   "Next.js",
+  "Jest testing",
   "Firebase",
   "Redux",
   "Tailwind",

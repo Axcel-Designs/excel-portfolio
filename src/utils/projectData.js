@@ -24,6 +24,25 @@ export const projectData = [
     codehref: "https://github.com/Axcel-Designs/CleanCityPlus",
   },
   {
+    id: 7,
+    name: "E-commerce",
+    des: "React web app Store that is used for shoping.",
+    tech: ["React", "tailwind", "Redux", "Formik-yup"],
+    img: eccomerce,
+    livehref: "https://ecomerce-five-beta.vercel.app/",
+    codehref:
+      "https://github.com/Axcel-Designs/REACT_tasks/tree/master/react_task_04",
+  },
+  {
+    id: 8,
+    name: "E-commerce",
+    des: "TypeScript web app Store that is used for shoping.",
+    tech: ["React", "TypeScript", "tailwind", "ContextApi"],
+    img: aecom,
+    livehref: "https://ecommerce-project-green-seven.vercel.app/",
+    codehref: "https://github.com/Axcel-Designs/ashinityEcommerceProject",
+  },
+  {
     id: 2,
     name: "World Population Data",
     des: "Interactive data visualization showing world language population statistics with dynamic charts and filtering capabilities.",
@@ -67,24 +86,5 @@ export const projectData = [
     img: leaderboard,
     livehref: "https://axcel-designs.github.io/leaderboard/",
     codehref: "https://axcel-designs.github.io/leaderboard/",
-  },
-  {
-    id: 7,
-    name: "E-commerce",
-    des: "React web app Store that is used for shoping.",
-    tech: ["React", "tailwind", "Redux", "Formik-yup"],
-    img: eccomerce,
-    livehref: "https://ecomerce-five-beta.vercel.app/",
-    codehref:
-      "https://github.com/Axcel-Designs/REACT_tasks/tree/master/react_task_04",
-  },
-  {
-    id: 8,
-    name: "E-commerce",
-    des: "TypeSCript web app Store that is used for shoping.",
-    tech: ["React", "TypeScript", "tailwind", "ContexApi"],
-    img: aecom,
-    livehref: "https://ecommerce-project-green-seven.vercel.app/",
-    codehref: "https://github.com/Axcel-Designs/ashinityEcommerceProject",
   },
 ];

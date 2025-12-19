@@ -20,7 +20,7 @@ export default function About() {
         </div>
         <div>
           <p className="text-2xl my-6">Tech Stack</p>
-          <div className="flex flex-wrap gap-10 lg:gap-5 text-sm text-gray-100 p-4 justify-center items-center">
+          <div className="flex flex-wrap gap-10 lg:gap-8 text-gray-100 p-4 justify-center items-center">
             {techStackData.map(({ tech, icon }) => (
               <div
                 key={tech}

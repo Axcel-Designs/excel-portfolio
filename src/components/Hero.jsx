@@ -14,7 +14,7 @@ export default function Hero() {
         <p className="my-2">Hello, my name is</p>
         <b className="text-4xl my-2">K. Excel Acha</b>
         <p className="text-2xl font-semibold my-4">
-          Software Developer | Web Developer | Frontend Specialist
+          Software Developer | Full Stack Web Developer 
         </p>
         <p>
           A professional dedicated to delivering updated, robust services in

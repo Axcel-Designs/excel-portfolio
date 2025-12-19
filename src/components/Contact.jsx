@@ -38,7 +38,7 @@ export default function Contact() {
   }
 
   return (
-    <div className="bg-gray-950 text-gray-200">
+    <div className="bg-gray-950 text-gray-200 py-10">
       <section
         id="contact"
         className="container mx-auto items-center gap-4 p-10 text-center"

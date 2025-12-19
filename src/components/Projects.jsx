@@ -6,7 +6,7 @@ import Image from "next/image";
 
 export default function Projects() {
   return (
-    <section id="projects" className="container mx-auto items-center gap-4 p-6">
+    <section id="projects" className="container mx-auto items-center gap-4 px-6 py-10">
       <div className="my-6">
         <p className="text-4xl my-6 text-center">Projects</p>
         <p>

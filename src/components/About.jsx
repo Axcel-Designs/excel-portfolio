@@ -5,7 +5,7 @@ export default function About() {
     <div className="bg-[#0f0f0f]">
       <section
         id="about"
-        className="container mx-auto items-center gap-4 p-6 text-gray-200 text-center"
+        className="container mx-auto items-center gap-4 py-10 text-gray-200 text-center"
       >
         <div>
           <p className="text-4xl my-6">About</p>

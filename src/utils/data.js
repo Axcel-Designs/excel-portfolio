@@ -5,26 +5,44 @@ import {
   FaWordpressSimple,
 } from "react-icons/fa";
 import { LuGithub, LuLinkedin, LuMail, LuTwitter } from "react-icons/lu";
+import { SiExpress, SiJest, SiMongodb, SiRedux, SiTypescript } from "react-icons/si";
+import {
+  RiAngularjsFill,
+  RiBootstrapFill,
+  RiCss3Fill,
+  RiFirebaseFill,
+  RiGithubFill,
+  RiHtml5Fill,
+  RiJavascriptFill,
+  RiNextjsFill,
+  RiNodejsFill,
+  RiReactjsFill,
+  RiTailwindCssFill,
+  RiVercelFill,
+} from "react-icons/ri";
 
 export const techStackData = [
-  "HTML5",
-  "CSS3",
-  "JavaScript",
-  "TypeScript",
-  "React",
-  "Next.Js",
-  "Angular.Js",
-  'Node.Js',
-  'Express.Js',
-  'MongoDB',
-  "Jest testing",
-  "Firebase",
-  "Redux",
-  "Tailwind",
-  "React-Boostrap/Boostrap",
-  "rechart",
-  "GitHub",
-  "Varcel",
+  { icon: <RiHtml5Fill className="text-2xl" />, tech: "HTML5" },
+  { icon: <RiCss3Fill className="text-2xl" />, tech: "CSS3" },
+  { icon: <RiJavascriptFill className="text-2xl" />, tech: "JavaScript" },
+  { icon: <SiTypescript className="text-2xl" />, tech: "TypeScript" },
+  { icon: <RiReactjsFill className="text-2xl" />, tech: "React" },
+  { icon: <RiNextjsFill className="text-2xl" />, tech: "Next.js" },
+  { icon: <RiAngularjsFill className="text-2xl" />, tech: "Angular" },
+  { icon: <RiNodejsFill className="text-2xl" />, tech: "Node.js" },
+  { icon: <SiExpress className="text-2xl" />, tech: "Express.js" },
+  { icon: <SiMongodb className="text-2xl" />, tech: "MongoDB" },
+  { icon: <SiJest className="text-2xl" />, tech: "Jest testing" },
+  { icon: <RiFirebaseFill className="text-2xl" />, tech: "Firebase" },
+  { icon: <SiRedux className="text-2xl" />, tech: "Redux" },
+  { icon: <RiTailwindCssFill className="text-2xl" />, tech: "Tailwind" },
+  {
+    icon: <RiBootstrapFill className="text-2xl" />,
+    tech: "React-Boostrap/Boostrap",
+  },
+  // { icon: "", tech: "rechart" },
+  { icon: <RiGithubFill className="text-2xl" />, tech: "GitHub" },
+  { icon: <RiVercelFill className="text-2xl" />, tech: "Vercel" },
 ];
 
 export const servicesData = [

@@ -22,7 +22,7 @@ export const projectData = [
     ],
     img: agriyield,
     livehref: "https://agriyield-web.vercel.app/",
-    codehref: "https://github.com/Axcel-Designs/CleanCityPlus",
+    codehref: "https://github.com/AgriYieldAshinity/Frontend-web",
   },
   {
     name: "CleanCity+",

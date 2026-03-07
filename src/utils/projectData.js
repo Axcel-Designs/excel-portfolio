@@ -5,11 +5,28 @@ import leaderboard from "../assets/projectPics/leadersboard.png";
 import aecom from "../assets/projectPics/aecommerce.png";
 import solarSystem from "../assets/projectPics/solar_system_day_4.1.gif";
 import cleanCity from "../assets/projectPics/cleanCity.png";
+import agriyield from "../assets/projectPics/agriyield.png";
 import eccomerce from "../assets/projectPics/eccomerce.png";
 
 export const projectData = [
   {
     id: 1,
+    name: "Agriyield",
+    des: "Centralized platform for collecting, analyzing, and sharing agricultural yield data. Empowering farmers, cooperatives, and stakeholders with actionable insights.",
+    tech: [
+      "React.js",
+      "Typecript.js",
+      "Tailwind",
+      "Rechart",
+      "React-Boostrap/Boostrap",
+      "REST Api",
+    ],
+    img: agriyield,
+    livehref: "https://agriyield-web.vercel.app/",
+    codehref: "https://github.com/Axcel-Designs/CleanCityPlus",
+  },
+  {
+    id: 2,
     name: "CleanCity+",
     des: "A web app that educates users on waste categories log, track, and visualize their recycling efforts.",
     tech: [

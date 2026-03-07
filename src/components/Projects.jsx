@@ -15,9 +15,9 @@ export default function Projects() {
         </p>
       </div>
       <div className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 my-4">
-        {projectData.map(({ id, name, des, tech, img, livehref, codehref }) => (
+        {projectData.map(({ name, des, tech, img, livehref, codehref }) => (
           <div
-            key={id}
+            key={name}
             className="flex flex-col justify-between shadow/60 shadow-white p-4 rounded-xl w-[300px] h-[530px] mx-auto"
           >
             <div>

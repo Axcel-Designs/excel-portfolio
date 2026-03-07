@@ -10,7 +10,6 @@ import eccomerce from "../assets/projectPics/eccomerce.png";
 
 export const projectData = [
   {
-    id: 1,
     name: "Agriyield",
     des: "Centralized platform for collecting, analyzing, and sharing agricultural yield data. Empowering farmers, cooperatives, and stakeholders with actionable insights.",
     tech: [
@@ -26,7 +25,6 @@ export const projectData = [
     codehref: "https://github.com/Axcel-Designs/CleanCityPlus",
   },
   {
-    id: 2,
     name: "CleanCity+",
     des: "A web app that educates users on waste categories log, track, and visualize their recycling efforts.",
     tech: [
@@ -41,7 +39,6 @@ export const projectData = [
     codehref: "https://github.com/Axcel-Designs/CleanCityPlus",
   },
   {
-    id: 7,
     name: "E-commerce",
     des: "React web app Store that is used for shoping.",
     tech: ["React", "tailwind", "Redux", "Formik-yup"],
@@ -51,7 +48,6 @@ export const projectData = [
       "https://github.com/Axcel-Designs/REACT_tasks/tree/master/react_task_04",
   },
   {
-    id: 8,
     name: "E-commerce",
     des: "TypeScript web app Store that is used for shoping.",
     tech: ["React", "TypeScript", "tailwind", "ContextApi"],
@@ -60,7 +56,6 @@ export const projectData = [
     codehref: "https://github.com/Axcel-Designs/ashinityEcommerceProject",
   },
   {
-    id: 2,
     name: "World Population Data",
     des: "Interactive data visualization showing world language population statistics with dynamic charts and filtering capabilities.",
     tech: ["HTML", "CSS", "JavaScript"],
@@ -69,7 +64,6 @@ export const projectData = [
     codehref: "https://github.com/Axcel-Designs/worldCountriesData",
   },
   {
-    id: 3,
     name: "World Countries Data",
     des: "Comprehensive application displaying detailed information about countries worldwide with search and filter functionality.",
     tech: ["HTML", "CSS", "JavaScript", "REST API"],
@@ -78,7 +72,6 @@ export const projectData = [
     codehref: "https://github.com/Axcel-Designs/worldCountriesData",
   },
   {
-    id: 4,
     name: "Solar System Explorer",
     des: "Interactive 3D visualization of our solar system with detailed information about planets and celestial bodies.",
     tech: ["HTML", "CSS", "JavaScript", "Animation"],
@@ -87,7 +80,6 @@ export const projectData = [
     codehref: "https://github.com/Axcel-Designs/solarSystem",
   },
   {
-    id: 5,
     name: "Git Repo Checker",
     des: "A tool for developers to check GitHub repository status, commits, and project statistics with a clean interface.",
     tech: ["HTML", "CSS", "JavaScript", "GitHub API"],
@@ -96,7 +88,6 @@ export const projectData = [
     codehref: "https://github.com/Axcel-Designs/GitRepo-checker",
   },
   {
-    id: 6,
     name: "Leaderboard App+",
     des: "Dynamic leaderboard application with real-time updates, scoring system, and user management features.",
     tech: ["HTML", "CSS", "JavaScript", "Local Storage"],

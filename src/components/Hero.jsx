@@ -9,21 +9,32 @@ export default function Hero() {
     element?.scrollIntoView({ behavior: "smooth" });
   }
   return (
-    <section id="home" className="container mx-auto grid grid-cols-2 max-sm:grid-cols-1 items-center gap-4 p-6">
+    <section
+      id="home"
+      className="container mx-auto grid grid-cols-2 max-sm:grid-cols-1 items-center gap-4 p-6"
+    >
       <div>
         <p className="my-2">Hello, my name is</p>
         <b className="text-4xl my-2">K. Excel Acha</b>
         <p className="text-2xl font-semibold my-4">
-          Software Developer | Full Stack Web Developer 
+          Software Developer | Full Stack Web Developer
         </p>
         <p>
-          A professional dedicated to delivering updated, robust services in
-          information technology, from web development to graphics design and
-          social media management
+          I am an enthusiatic, self-motivated, reliable, responsible and
+          hard-working person. I work well under pressure and adhere to strict
+          deadlines. A professional dedicated to delivering updated, robust
+          services in information technology, from web development to graphics
+          design and social media management
         </p>
         <div className="flex max-md:flex-col w-fit gap-4 my-4">
-          <Button label="View My Work" onClick={()=>scrollToSection("#projects")} />
-          <ButtonWhite label="Get In Touch" onClick={()=>scrollToSection("#contact")}/>
+          <Button
+            label="View My Work"
+            onClick={() => scrollToSection("#projects")}
+          />
+          <ButtonWhite
+            label="Get In Touch"
+            onClick={() => scrollToSection("#contact")}
+          />
         </div>
       </div>
       <div className="flex gap-1 ">

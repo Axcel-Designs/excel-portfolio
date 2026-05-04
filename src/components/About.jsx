@@ -10,7 +10,7 @@ export default function About() {
         <div>
           <p className="text-4xl my-6">About</p>
           <p>
-            I’m a dedicated software developer passionate about building modern,
+            I am a dedicated software developer passionate about building modern,
             robust, and user-focused digital solutions. With experience spanning
             Software development, web development to design I specialize in
             creating impactful products that solve real problems and deliver

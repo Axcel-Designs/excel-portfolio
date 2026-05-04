@@ -10,7 +10,8 @@ const oxanium = Oxanium({
 
 export const metadata = {
   title: "Acha K. Excel Portfolio",
-  description: "Software Developer | Web Developer | Frontend Specialist",
+  description:
+    "Software Developer | full stack Developer | Web Developer | Frontend Specialist",
 };
 
 export default function RootLayout({ children }) {
@@ -24,7 +25,7 @@ export default function RootLayout({ children }) {
       >
         <Header />
         <div className="grow">{children}</div>
-        <ScrollTop/>
+        <ScrollTop />
         <Footer />
       </body>
     </html>

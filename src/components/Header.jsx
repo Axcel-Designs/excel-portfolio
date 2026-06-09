@@ -30,7 +30,7 @@ export default function Header() {
 
   return (
     <>
-      <section className="shadow/20 shadow-gray-600 sticky top-0 bg-black/95">
+      <section className="shadow/20 shadow-gray-600 sticky top-0 bg-black/95 z-40">
         <header className="flex justify-between items-center py-2 px-2 md:pr-20 md:pl-10">
           <Link href={"/"}>
             <Image src={logo} alt="image" width={200} />

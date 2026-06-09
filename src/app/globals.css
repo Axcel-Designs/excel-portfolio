@@ -3,9 +3,12 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
-button,nav{
+
+button,
+nav {
   cursor: pointer;
 }
+
 h1 {
   font-size: 2em;
 }
@@ -28,4 +31,22 @@ h5 {
 
 h6 {
   font-size: 0.75em;
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.animate-marquee {
+  width: max-content;
+  animation: marquee 40s linear infinite;
+}
+.animate-marquee:hover {
+  animation-play-state: paused;
 }

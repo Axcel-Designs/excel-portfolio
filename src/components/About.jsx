@@ -10,26 +10,32 @@ export default function About() {
         <div>
           <p className="text-4xl my-6">About</p>
           <p>
-            I am a dedicated software developer passionate about building modern,
-            robust, and user-focused digital solutions. With experience spanning
-            Software development, web development to design I specialize in
-            creating impactful products that solve real problems and deliver
-            value. My goal is to combine technical expertise with creativity to
-            craft solutions that truly make a difference.
+            I am a dedicated software developer passionate about building
+            modern, robust, and user-focused digital solutions. With experience
+            spanning Software development, web development to design I
+            specialize in creating impactful products that solve real problems
+            and deliver value. My goal is to combine technical expertise with
+            creativity to craft solutions that truly make a difference.
           </p>
         </div>
         <div>
           <p className="text-2xl my-6">Tech Stack</p>
-          <div className="flex flex-wrap gap-10 lg:gap-8 text-gray-100 p-4 justify-center items-center">
-            {techStackData.map(({ tech, icon }) => (
-              <div
-                key={tech}
-                className="p-2 rounded-lg bg-yellow-900 animate-pulse"
-              >
-                {icon}
-                {/* {tech} */}
-              </div>
-            ))}
+          <div className="overflow-visible w-full">
+            <div className="flex gap-10 animate-marquee whitespace-nowrap">
+              {[...techStackData, ...techStackData, ...techStackData].map(
+                ({ tech, icon }, key) => (
+                  <button
+                    key={`${key}`}
+                    className="group relative p-2 rounded-lg bg-yellow-900 flex-shrink-0"
+                  >
+                    {icon}
+                    <span className="absolute -top-10 left-1/2 -translate-x-1/2 whitespace-nowrap rounded bg-black px-2 py-1 text-xs text-white opacity-0 transition-opacity duration-200 group-hover:opacity-100">
+                      {tech}
+                    </span>
+                  </button>
+                ),
+              )}
+            </div>
           </div>
         </div>
       </section>
